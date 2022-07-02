@@ -11,5 +11,6 @@ const languageSchema = new Schema ({
 })
 
 //model and export: 
-const Language = mongoose.model('Language, languageSchema')
+const Language = mongoose.model('Language', languageSchema)
 module.exports = Language
+
